@@ -2,7 +2,8 @@
 <html lang="ru" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Калькулятор выхода на пенсию</title>
 
@@ -17,10 +18,13 @@
         <h1>Рассчет выходна на пенсию</h1>
         <h2>
             <span th:text="'У вас есть ' + ${retYears} + ' лет до выхода на пенсию'">У вас есть 10 лет до выхода на пенсию</span><br>
-            <span th:text="'Сейчас ' + ${curYear} + ' год. Вы выйдете на пенсию в ' + ${curYear}">Сейчас 2021 год. Вы выйдете на пенсию в 2031</span>
+            <span
+                th:text="'Сейчас ' + ${curYear} + ' год. Вы выйдете на пенсию в ' + ${curYear}">Сейчас 2021 год. Вы выйдете на пенсию в 2031</span>
         </h2>
     </div>
     <a href="/">Вернуться</a>
 
 
 </main>
+</body>
+</html>
